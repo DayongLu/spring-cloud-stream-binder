@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 
 
 @Data
@@ -18,11 +17,23 @@ public class GmAzureIotHubProperties {
 
     private String name;
 
-    private String accessPolicyName;
+    private String primaryKey;
 
-    private String connectStringPrimaryKey;
+    private String secondaryKey;
 
-    private String connectStringSecondaryKey;
+    private String accessRole;
+
+    private String connectString;
+
+    private String d2cEventHubCompatibleName;
+
+    private String d2cEventHubCompatibleEndpoint;
+
+    private int d2cEventHubCompatiblePartitionNum;
+
+    private String consumerGroup;
+
+    //    private Map<String, IotHubInfo> hubInfoMap;
 
 
 }

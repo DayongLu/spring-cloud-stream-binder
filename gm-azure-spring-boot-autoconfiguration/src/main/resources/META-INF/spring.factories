@@ -1,2 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.gm.gcc.gm.azure.iothub.springboot.starter.autoconfiguration.GmAzureIotHubAutoConfiguration
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#  com.gm.gcc.gm.azure.iothub.springboot.starter.autoconfiguration.GmAzureIotHubAutoConfiguration
